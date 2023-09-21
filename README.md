@@ -2,20 +2,24 @@
 
 Template for Next JS Project
 
-## Feature
+## Features
 
+This repository is packed with:
+
+- [x] Next.js 13 (Support both pages and app router)
+- [x] React 18
 - [x] Typescript
 - [ ] Pre-built Components
 - [x] Tailwind CSS
+- [x] Shadcn UI
 - [x] Sass & Scss Support
 - [ ] Husky
 - [x] Prettier
 - [x] ESLint
 - [ ] Github Actions
 - [ ] Conventional Commit Lint
-- [ ] Zustand & React Query
+- [x] Zustand & React Query
 - [ ] Storybook
-- [ ] Chakra UI
 - [x] NextJS Sitemap
 
 ## Getting Started
