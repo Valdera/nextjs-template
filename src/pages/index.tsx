@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import CounterSample from '@/components/sample/counter/CounterSample';
 import { useCounterStore } from '@/lib/stores';
 import { useEffect } from 'react';
 import { useQuery } from 'react-query';
@@ -20,14 +20,6 @@ const HomePage = () => {
     }
   }, [data, setCounter]);
 
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
-
-  if (isError) {
-    return <div>Error</div>;
-  }
-
   return (
     <div
       className={
@@ -35,14 +27,14 @@ const HomePage = () => {
       }
     >
       <h1 className={'text-5xl mb-2 font-heading'}>Hello World</h1>
-      <p className={'text-gray-700 font-body'}>This is next js project</p>
-      <div className={'flex gap-5 mt-10 items-center'}>
-        <Button onClick={() => decrement()}>-</Button>
-        <div className={'bg-slate-50 p-5 shadow-lg rounded-lg'}>
-          <p className={'text-3xl text-gray-700'}>{count}</p>
-        </div>
-        <Button onClick={() => increment()}>+</Button>
-      </div>
+      <p className={'text-gray-700 font-body mb-10'}>This is next js project</p>
+      <CounterSample
+        data={{ count }}
+        onDecrement={decrement}
+        onIncrement={increment}
+        isLoading={isLoading}
+        isError={isError}
+      />
     </div>
   );
 };

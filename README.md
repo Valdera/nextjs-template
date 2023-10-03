@@ -16,7 +16,7 @@ This repository is packed with:
 - [x] Prettier
 - [x] ESLint
 - [ ] Github Actions
-- [ ] Conventional Commit Lint
+- [x] Conventional Commit Lint
 - [x] Zustand & React Query
 - [ ] Storybook
 - [x] NextJS Sitemap
