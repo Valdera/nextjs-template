@@ -3,7 +3,7 @@ import '@/styles/globals.scss';
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="en" className={`${body.variable} ${heading.variable}`}>
+    <html lang={'en'} className={`${body.variable} ${heading.variable}`}>
       <body>{children}</body>
     </html>
   );
