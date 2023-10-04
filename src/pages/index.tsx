@@ -1,4 +1,4 @@
-import CounterSample from '@/components/sample/counter/CounterSample';
+import CounterSample from '@/components/counter/CounterSample';
 import { useCounterStore } from '@/lib/stores';
 import { useEffect } from 'react';
 import { useQuery } from 'react-query';

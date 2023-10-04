@@ -15,7 +15,6 @@ This repository is packed with:
 - [x] Husky
 - [x] Prettier
 - [x] ESLint
-- [ ] Github Actions
 - [x] Conventional Commit Lint
 - [x] Zustand & React Query
 - [x] Storybook
