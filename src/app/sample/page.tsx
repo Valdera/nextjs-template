@@ -1,4 +1,4 @@
-const TestPage = () => {
+const SamplePage = () => {
   return (
     <div
       className={
@@ -11,4 +11,4 @@ const TestPage = () => {
   );
 };
 
-export default TestPage;
+export default SamplePage;

@@ -7,6 +7,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: [
       path.join(__dirname, 'styles'),
+      path.join(__dirname, 'app'),
       path.join(__dirname, 'components'),
     ],
   },

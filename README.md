@@ -18,7 +18,8 @@ This repository is packed with:
 - [ ] Github Actions
 - [x] Conventional Commit Lint
 - [x] Zustand & React Query
-- [ ] Storybook
+- [x] Storybook
+- [x] Unit Testing with Jest
 - [x] NextJS Sitemap
 
 ## Getting Started

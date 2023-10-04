@@ -3,7 +3,9 @@
     "next",
     "next/core-web-vitals",
     "eslint:recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:testing-library/react"
   ],
   "globals": {
     "React": "readonly"
@@ -13,7 +15,18 @@
     {
       "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
       "rules": {
-        // "storybook/hierarchy-separator": "error"
+        "storybook/hierarchy-separator": "error"
+      }
+    },
+    {
+      "files": [
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.test.tsx",
+        "**/*.test.ts"
+      ],
+      "env": {
+        "jest": true
       }
     }
   ],
